@@ -1,5 +1,7 @@
 # Your code goes here!
-class Anagram
+class Anagram 
+
+attr_accessor :word
 
 array = []
 
