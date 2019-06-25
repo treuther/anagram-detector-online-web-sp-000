@@ -8,7 +8,12 @@ def initialize(word)
 end
 
 def match(array)
-
+  @array = array
+  if array = array
+    array
+  else
+      nil
+    end
 end
 
 end
