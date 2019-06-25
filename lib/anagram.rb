@@ -15,6 +15,7 @@ def match(word_array)
     else
       nil
     end
+  end
 end
 
 end
