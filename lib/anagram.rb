@@ -3,17 +3,16 @@ class Anagram
 
 attr_accessor :word
 
-array = []
-
 def initialize(word)
   @word = word
 end
 
-def match(array)
-  @array = array
-  if array = array
-    array
-  else
+def match(word_array)
+  word_array.each do |ea_word|
+    ea_word.split("")
+    if ea_word.sort == @word.sort
+      word_array
+    else
       nil
     end
 end
