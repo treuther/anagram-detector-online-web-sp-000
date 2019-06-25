@@ -1,5 +1,4 @@
 # Your code goes here!
-require "pry"
 class Anagram
 
 attr_accessor :word
@@ -13,5 +12,5 @@ def match(word_array)
     ea_word.split("").sort == @word.split("").sort
   end
 end
-binding.pry
+
 end
