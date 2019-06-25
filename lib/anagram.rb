@@ -5,4 +5,8 @@ def initialize(word)
   @word = word
 end
 
+def matches
+
+end
+
 end
